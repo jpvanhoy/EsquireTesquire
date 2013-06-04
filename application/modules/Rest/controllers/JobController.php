@@ -5,17 +5,17 @@ require_once 'AbstractController.php';
 class Rest_JobController extends Rest_AbstractController
 {
 	public function indexAction() {
-		$this->setService(Esquire_Service_Factory::getService('Panties'));
-		$this->logger->log('Job list done got asked for from ' . __METHOD__ . ' by ' . $_SERVER['REMOTE_ADDR'], Zend_Log::DEBUG);
+		$this->setService(Esquire_Service_Factory::getService('Job'));
+		$this->logger->log('Job list requested from ' . __METHOD__ . ' by ' . $_SERVER['REMOTE_ADDR'], Zend_Log::DEBUG);
 	
 		try {
 			$valid = $this->validateCredentials();
-			// adding a comment up in here.
+			
 			if($valid) {
 				$fromDate 	= $this->_getParam('fromDate');
 				$toDate 	= $this->_getParam('toDate');
 				$result 	= $this->getService()->getJobList($this->token, $fromDate, $toDate);
-				$this->doShit($result);
+				$this->processResult($result);
 			} else {
 				$this->setResponseCode(Rest_RestHelper::HTTP_FORBIDDEN);
 				$this->setResponseData('Invalid or expired token provided.', TRUE);
