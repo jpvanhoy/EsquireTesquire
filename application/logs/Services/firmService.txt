@@ -1,0 +1,231 @@
+2012-11-13T14:42:05-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2012-11-13T14:44:50-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2012-11-13T14:45:32-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2012-11-13T14:48:01-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2012-11-13T14:48:01-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2012-11-13T14:48:55-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2012-11-13T14:48:55-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2012-11-19T09:11:36-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2012-11-19T09:11:36-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:25:21-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:25:21-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:25:31-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:25:31-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:27:55-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:27:55-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:28:30-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:28:30-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:31:34-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:31:34-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:31:34-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:31:34-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:31:35-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T08:31:35-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:46:38-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:46:38-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:46:38-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:46:38-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:59:27-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:59:27-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:59:27-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:59:27-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:59:27-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T12:59:27-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T13:08:23-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T13:08:24-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T13:08:24-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T13:08:24-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T13:08:24-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T13:08:24-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T13:08:24-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-17T13:08:24-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-01-24T11:15:28-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T11:18:16-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T13:37:07-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T13:42:34-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T13:49:25-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T13:59:08-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:00:50-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:04:19-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:21:58-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:24:08-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:29:45-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-13T14:22:31-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:22:31-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:22:31-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:22:32-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:22:32-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:22:32-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:22:32-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-13T14:22:32-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-13T14:22:32-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:22:32-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:22:32-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:43-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:43-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:43-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:43-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:43-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:44-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:44-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-13T14:23:44-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-13T14:23:44-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:44-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:23:44-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:25-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:25-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:25-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:25-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:25-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:25-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:25-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-13T14:24:25-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-13T14:24:26-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:26-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-13T14:24:26-05:00 DEBUG (7): Tried to get connection to connection_browngallo
+2013-02-14T09:06:19-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-14T09:06:19-05:00 DEBUG (7): RESULTS: Array
+(
+    [0] => Array
+        (
+            [ClientID] => 1
+            [CompanyID] => 401
+            [ClientTypeID] => 1
+            [Name] => CLIENT 1 LLC
+            [DirectPhone] => 
+            [TollFreePhone] => 
+            [Fax] => 
+            [EffectiveDate] => 
+            [ExpireDate] => 
+            [WarningText] => 
+            [OrderRemarks] => 
+            [ReposDefaultPwd] => 
+            [ReposDefaultUser] => 
+        )
+
+    [1] => Array
+        (
+            [ClientID] => 2
+            [CompanyID] => 401
+            [ClientTypeID] => 1
+            [Name] => CLIENT 2 LLC
+            [DirectPhone] => 
+            [TollFreePhone] => 
+            [Fax] => 
+            [EffectiveDate] => 
+            [ExpireDate] => 
+            [WarningText] => 
+            [OrderRemarks] => 
+            [ReposDefaultPwd] => 
+            [ReposDefaultUser] => 
+        )
+
+    [2] => Array
+        (
+            [ClientID] => 3
+            [CompanyID] => 401
+            [ClientTypeID] => 1
+            [Name] => CLIENT 3 LLC
+            [DirectPhone] => 
+            [TollFreePhone] => 
+            [Fax] => 
+            [EffectiveDate] => 
+            [ExpireDate] => 
+            [WarningText] => 
+            [OrderRemarks] => 
+            [ReposDefaultPwd] => 
+            [ReposDefaultUser] => 
+        )
+
+    [3] => Array
+        (
+            [ClientID] => 4
+            [CompanyID] => 401
+            [ClientTypeID] => 1
+            [Name] => CLIENT 4 LLC
+            [DirectPhone] => 
+            [TollFreePhone] => 
+            [Fax] => 
+            [EffectiveDate] => 
+            [ExpireDate] => 
+            [WarningText] => 
+            [OrderRemarks] => 
+            [ReposDefaultPwd] => 
+            [ReposDefaultUser] => 
+        )
+
+)
+
+2013-02-14T09:06:36-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-02-14T09:06:36-05:00 DEBUG (7): RESULTS: Array
+(
+    [0] => Array
+        (
+            [ClientID] => 1
+            [CompanyID] => 401
+            [ClientTypeID] => 1
+            [Name] => CLIENT 1 LLC
+            [DirectPhone] => 
+            [TollFreePhone] => 
+            [Fax] => 
+            [EffectiveDate] => 
+            [ExpireDate] => 
+            [WarningText] => 
+            [OrderRemarks] => 
+            [ReposDefaultPwd] => 
+            [ReposDefaultUser] => 
+        )
+
+    [1] => Array
+        (
+            [ClientID] => 2
+            [CompanyID] => 401
+            [ClientTypeID] => 1
+            [Name] => CLIENT 2 LLC
+            [DirectPhone] => 
+            [TollFreePhone] => 
+            [Fax] => 
+            [EffectiveDate] => 
+            [ExpireDate] => 
+            [WarningText] => 
+            [OrderRemarks] => 
+            [ReposDefaultPwd] => 
+            [ReposDefaultUser] => 
+        )
+
+    [2] => Array
+        (
+            [ClientID] => 3
+            [CompanyID] => 401
+            [ClientTypeID] => 1
+            [Name] => CLIENT 3 LLC
+            [DirectPhone] => 
+            [TollFreePhone] => 
+            [Fax] => 
+            [EffectiveDate] => 
+            [ExpireDate] => 
+            [WarningText] => 
+            [OrderRemarks] => 
+            [ReposDefaultPwd] => 
+            [ReposDefaultUser] => 
+        )
+
+    [3] => Array
+        (
+            [ClientID] => 4
+            [CompanyID] => 401
+            [ClientTypeID] => 1
+            [Name] => CLIENT 4 LLC
+            [DirectPhone] => 
+            [TollFreePhone] => 
+            [Fax] => 
+            [EffectiveDate] => 
+            [ExpireDate] => 
+            [WarningText] => 
+            [OrderRemarks] => 
+            [ReposDefaultPwd] => 
+            [ReposDefaultUser] => 
+        )
+
+)
+

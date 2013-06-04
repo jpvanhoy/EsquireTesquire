@@ -1,0 +1,15 @@
+<?php
+
+$jsonConfig = '{}';
+
+if (isset($this->reportConfig)) {
+    $jsonConfig = json_encode($this->reportConfig->ui->toArray());
+}
+
+$this->headScript()->captureStart(); 
+?>
+	reportBuilderConfig = <?php echo $jsonConfig; ?>;
+<?php 
+$this->headScript()->captureEnd();
+
+$this->headScript()->appendFile('public/js/application/modules/SampleApp/application.js');

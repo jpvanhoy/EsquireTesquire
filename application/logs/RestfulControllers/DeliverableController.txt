@@ -1,0 +1,165 @@
+2013-03-14T15:41:02-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-14T15:41:02-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to  based on object var.
+2013-03-14T15:41:02-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-14T15:41:02-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-14T15:41:02-04:00 ERR (3): Error caught in indexAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(57): Esquire_Service_Security->hasAccess('Services_Delive...', 'indexAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Delive...', 'indexAction', NULL)
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(74): Services_Base->getSecurityToken(NULL, 'indexAction')
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\DeliverableController.php(17): Rest_AbstractController->validateCredentials()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_DeliverableController->indexAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\DeliverableControllerTest.php(27): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Deliverab...')
+#11 [internal function]: Rest_DeliverableControllerTest->testIndexAction()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_DeliverableControllerTest), Array)
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_DeliverableControllerTest))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_DeliverableControllerTest), Object(PHPUnit_Framework_TestResult))
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#21 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#22 {main}
+2013-03-14T16:00:59-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-14T16:00:59-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to  based on object var.
+2013-03-14T16:00:59-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-14T16:00:59-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-14T16:00:59-04:00 ERR (3): Error caught in indexAction--Error Code 0: Caller does not have access to this service. Please contact technical support.
+#0 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Delive...', 'indexAction', '1234567')
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(74): Services_Base->getSecurityToken('1234567', 'indexAction')
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\DeliverableController.php(17): Rest_AbstractController->validateCredentials()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_DeliverableController->indexAction()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#6 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#9 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\DeliverableControllerTest.php(28): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Deliverab...')
+#10 [internal function]: Rest_DeliverableControllerTest->testIndexAction()
+#11 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_DeliverableControllerTest), Array)
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_DeliverableControllerTest))
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_DeliverableControllerTest), Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#21 {main}
+2013-03-14T16:05:22-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-14T16:05:22-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to  based on object var.
+2013-03-14T16:05:22-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-14T16:05:22-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-14T16:05:22-04:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Deliverable.php(46): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\DeliverableController.php(20): Services_Deliverable->getListOfBaseDeliverables('51422d82bf42f')
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_DeliverableController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\DeliverableControllerTest.php(28): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Deliverab...')
+#9 [internal function]: Rest_DeliverableControllerTest->testIndexAction()
+#10 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_DeliverableControllerTest), Array)
+#11 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_DeliverableControllerTest))
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_DeliverableControllerTest), Object(PHPUnit_Framework_TestResult))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#20 {main}
+2013-03-14T16:06:55-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-14T16:06:55-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-14T16:06:56-04:00 ERR (3): processResult has registered an error. Further information may be available.
+2013-03-15T10:36:24-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-15T10:36:24-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-15T10:37:28-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-15T10:37:28-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-18T09:51:15-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-18T09:51:15-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T09:40:04-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T09:40:04-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T09:40:33-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T09:40:33-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T09:40:50-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T09:40:50-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:33:29-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:33:29-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:34:10-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:34:10-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:34:30-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:34:30-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:37:24-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:37:24-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:38:16-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:38:16-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:38:52-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:38:52-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:39:16-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:39:16-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:39:43-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:39:43-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:40:23-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:40:23-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:41:30-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:41:30-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:42:37-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:42:37-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:43:12-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:43:12-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:45:20-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:45:20-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:49:17-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:49:17-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:53:24-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:53:24-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:59:43-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T10:59:43-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T10:59:43-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-19T11:00:19-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T11:00:19-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T11:00:20-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-19T11:15:35-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T11:15:35-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T11:15:36-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-19T11:16:17-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T11:16:17-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T11:16:18-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-19T11:16:18-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-19T11:37:33-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T11:37:33-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T11:37:34-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-19T11:37:34-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-19T11:37:34-04:00 ERR (3): postAction has registered an error. Further information may be available.
+2013-03-19T11:37:55-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T11:37:55-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T11:37:55-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-19T11:37:56-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-19T11:37:56-04:00 ERR (3): postAction has registered an error. Further information may be available.
+2013-03-19T11:39:24-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-19T11:39:24-04:00 DEBUG (7): List requested from Rest_DeliverableController::indexAction by 
+2013-03-19T11:39:24-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-19T11:39:24-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-19T11:39:25-04:00 ERR (3): postAction has registered an error. Further information may be available.
+2013-03-19T11:39:25-04:00 ERR (3): deleteAction has registered an error. Further information may be available.
+2013-03-20T13:00:33-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-20T13:00:34-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-20T13:00:34-04:00 ERR (3): postAction has registered an error. Further information may be available.
+2013-03-20T13:00:34-04:00 ERR (3): deleteAction has registered an error. Further information may be available.
+2013-03-20T13:17:22-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-20T13:17:23-04:00 ERR (3): postAction has registered an error. Further information may be available.
+2013-03-20T13:17:23-04:00 ERR (3): deleteAction has registered an error. Further information may be available.
+2013-03-20T13:20:03-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-20T13:20:03-04:00 ERR (3): postAction has registered an error. Further information may be available.
+2013-03-20T13:20:04-04:00 ERR (3): deleteAction has registered an error. Further information may be available.

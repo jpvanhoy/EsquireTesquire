@@ -1,0 +1,711 @@
+2012-12-06T09:07:05-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-06T09:07:05-05:00 ERR (3): Error caught in getAction--Error Code 0: PDO Connection Error: SQLSTATE[HY000] [2005] Unknown MySQL server host 'idc-acntrlqa02' (11001) - #0 D:\xampp\htdocs\f2\library\Doctrine\Connection\Mysql.php(101): Doctrine_Connection->connect()
+#1 D:\xampp\htdocs\f2\library\Doctrine\Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(976): Doctrine_Connection->execute('SELECT c.compan...', Array)
+#3 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1026): Doctrine_Query_Abstract->_execute(NULL)
+#4 D:\xampp\htdocs\f2\application\Services\Base.php(122): Doctrine_Query_Abstract->execute(NULL, 3)
+#5 D:\xampp\htdocs\f2\application\Services\Job.php(76): Services_Base->getCompanyDataConnection('401')
+#6 D:\xampp\htdocs\f2\application\Services\Job.php(184): Services_Job->getJobById('50c0a67ddb3fa', '54601', true)
+#7 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(43): Services_Job->getJobBySuperId('50c0a67ddb3fa', '54601_401', true)
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#9 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#10 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#14 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#15 {main}
+2012-12-06T09:21:38-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-06T09:21:38-05:00 ERR (3): Error caught in getAction--Error Code 0: PDO Connection Error: SQLSTATE[HY000] [2003] Can't connect to MySQL server on 'idc-acntrlqa02' (10060) - #0 D:\xampp\htdocs\f2\library\Doctrine\Connection\Mysql.php(101): Doctrine_Connection->connect()
+#1 D:\xampp\htdocs\f2\library\Doctrine\Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(976): Doctrine_Connection->execute('SELECT c.compan...', Array)
+#3 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1026): Doctrine_Query_Abstract->_execute(NULL)
+#4 D:\xampp\htdocs\f2\application\Services\Base.php(122): Doctrine_Query_Abstract->execute(NULL, 3)
+#5 D:\xampp\htdocs\f2\application\Services\Job.php(76): Services_Base->getCompanyDataConnection('401')
+#6 D:\xampp\htdocs\f2\application\Services\Job.php(184): Services_Job->getJobById('50c0a9dd223b2', '54601', true)
+#7 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(43): Services_Job->getJobBySuperId('50c0a9dd223b2', '54601_401', true)
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#9 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#10 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#14 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#15 {main}
+2012-12-06T11:01:57-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-06T11:01:57-05:00 ERR (3): Error caught in getAction--Error Code 0: PDO Connection Error: SQLSTATE[HY000] [2005] Unknown MySQL server host 'idc-acntrlqa02' (11001) - #0 D:\xampp\htdocs\f2\library\Doctrine\Connection\Mysql.php(101): Doctrine_Connection->connect()
+#1 D:\xampp\htdocs\f2\library\Doctrine\Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(976): Doctrine_Connection->execute('SELECT c.compan...', Array)
+#3 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1026): Doctrine_Query_Abstract->_execute(NULL)
+#4 D:\xampp\htdocs\f2\application\Services\Base.php(122): Doctrine_Query_Abstract->execute(NULL, 3)
+#5 D:\xampp\htdocs\f2\application\Services\Job.php(76): Services_Base->getCompanyDataConnection('401')
+#6 D:\xampp\htdocs\f2\application\Services\Job.php(184): Services_Job->getJobById('50c0c17299fe3', '54601', true)
+#7 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(43): Services_Job->getJobBySuperId('50c0c17299fe3', '54601_401', true)
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#9 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#10 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#14 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#15 {main}
+--------------------------------
+2012-12-18T10:47:32-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T10:47:32-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-18T10:47:32-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d090143e248', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-18T10:48:54-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T10:48:54-05:00 WARN (4): Invalid security provided from 127.0.0.1, details are as follows: [key: ][token: 123456789]
+2012-12-18T10:48:54-05:00 ERR (3): indexAction has registered an error. Further information may be available.
+2012-12-18T10:49:21-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T10:49:21-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-18T10:49:21-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d0908134d40', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-18T10:50:32-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T10:51:10-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T10:52:12-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T10:52:12-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-18T10:52:12-05:00 ERR (3): Error caught in indexAction--Error Code 0: Caller does not have access to this service. Please contact technical support.
+#0 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', '1234567')
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken('1234567', 'indexAction')
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#9 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#10 {main}
+2012-12-18T10:55:17-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T10:55:17-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-18T10:55:17-05:00 ERR (3): Error caught in indexAction--Error Code -1: Unknown code provided to ServiceResult.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Result.php(46): Esquire_Service_Result->setOptions(4, NULL, NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Base.php(164): Esquire_Service_Result->__construct(4)
+#2 D:\xampp\htdocs\f2\application\Services\Job.php(56): Services_Base->sayBadSecurity()
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList(NULL, NULL, NULL)
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#11 {main}
+2012-12-18T10:56:32-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T10:56:32-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-18T10:56:32-05:00 ERR (3): Error caught in indexAction--Error Code 0: Caller does not have access to this service. Please contact technical support.
+#0 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', '1234567')
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken('1234567', 'indexAction')
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#9 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#10 {main}
+2012-12-18T11:01:08-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T11:01:08-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-18T11:01:08-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d09344e2f71', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-18T11:06:02-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-18T11:06:02-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-18T11:06:02-05:00 ERR (3): Error caught in indexAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(58): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'indexAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', NULL)
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken(NULL, 'indexAction')
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#11 {main}
+2012-12-19T08:37:14-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T08:37:14-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T08:37:14-05:00 ERR (3): Error caught in indexAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(58): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'indexAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', NULL)
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken(NULL, 'indexAction')
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#11 {main}
+2012-12-19T08:37:24-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T08:40:39-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T08:44:38-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:09:23-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:10:31-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:11:41-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:12:02-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:13:13-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:13:13-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T09:13:13-05:00 ERR (3): Error caught in indexAction--Error Code 0: Section '1234567' cannot be found in D:\xampp\htdocs\f2\application/configs/service_access.ini
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(205): Zend_Config_Ini->__construct('D:\xampp\htdocs...', '1234567')
+#1 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(164): Esquire_Service_Security->checkForAccess('Services_Job_Se...', 'indexAction', '1234567')
+#2 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(58): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'indexAction', '1234567')
+#3 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', '1234567')
+#4 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken('1234567', 'indexAction')
+#5 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#7 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#9 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#10 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#11 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#12 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#13 {main}
+2012-12-19T09:19:51-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:23:04-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:23:41-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:24:07-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:25:27-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:25:47-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:25:53-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:27:55-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:28:09-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:28:20-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:28:20-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T09:28:20-05:00 ERR (3): Error caught in indexAction--Error Code 0: Section '1234568' cannot be found in D:\xampp\htdocs\f2\application/configs/service_access.ini
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(205): Zend_Config_Ini->__construct('D:\xampp\htdocs...', '1234568')
+#1 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(164): Esquire_Service_Security->checkForAccess('Services_Job_Se...', 'indexAction', '1234568')
+#2 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(58): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'indexAction', '1234568')
+#3 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', '1234568')
+#4 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken('1234568', 'indexAction')
+#5 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#7 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#9 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#10 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#11 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#12 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#13 {main}
+2012-12-19T09:30:46-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:30:46-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T09:30:46-05:00 ERR (3): Error caught in indexAction--Error Code 0: Caller does not have access to this service. Please contact technical support.
+#0 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', '1234567')
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken('1234567', 'indexAction')
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#9 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#10 {main}
+2012-12-19T09:50:35-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T09:50:35-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T09:50:35-05:00 ERR (3): Error caught in indexAction--Error Code 0: Section '1234568' cannot be found in D:\xampp\htdocs\f2\application/configs/service_access.ini
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(205): Zend_Config_Ini->__construct('D:\xampp\htdocs...', '1234568')
+#1 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(164): Esquire_Service_Security->checkForAccess('Services_Job_Se...', 'indexAction', '1234568')
+#2 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(58): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'indexAction', '1234568')
+#3 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', '1234568')
+#4 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken('1234568', 'indexAction')
+#5 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#7 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#9 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#10 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#11 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#12 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#13 {main}
+2012-12-19T10:05:11-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T10:05:14-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T10:05:14-05:00 ERR (3): Error caught in indexAction--Error Code 0: Bad log priority
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(169): Zend_Log->log('Exception gener...')
+#1 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(58): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'indexAction', '1234568')
+#2 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', '1234568')
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken('1234568', 'indexAction')
+#4 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#7 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#8 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#9 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#10 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#11 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#12 {main}
+2012-12-19T10:05:42-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T10:05:42-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T10:05:42-05:00 ERR (3): Error caught in indexAction--Error Code 0: An exception has been generated attempting to check access for this request, please see the error log for details.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(58): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'indexAction', '1234568')
+#1 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'indexAction', '1234568')
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(71): Services_Base->getSecurityToken('1234568', 'indexAction')
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(12): Rest_AbstractController->validateCredentials()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#11 {main}
+2012-12-19T10:39:14-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T10:39:14-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T10:39:14-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d1dfa2880fe', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-19T10:39:34-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T10:39:34-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T10:39:34-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d1dfb6145d6', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-19T10:49:18-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T10:49:18-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T10:49:18-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d1e1fe333b3', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-19T10:57:18-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T10:57:18-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T10:57:18-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d1e3de5d310', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-19T14:58:09-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T14:58:09-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T14:58:09-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d21c5128350', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-19T14:58:13-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T14:58:13-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T14:58:13-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d21c55659e7', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-19T14:58:24-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T14:58:24-05:00 ERR (3): Error caught in getAction--Error Code 0: PDO Connection Error: SQLSTATE[HY000] [2005] Unknown MySQL server host 'idc-acntrlqa02' (11004)
+#0 D:\xampp\htdocs\f2\library\Doctrine\Connection\Mysql.php(101): Doctrine_Connection->connect()
+#1 D:\xampp\htdocs\f2\library\Doctrine\Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(976): Doctrine_Connection->execute('SELECT c.compan...', Array)
+#3 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1026): Doctrine_Query_Abstract->_execute(NULL)
+#4 D:\xampp\htdocs\f2\application\Services\Base.php(119): Doctrine_Query_Abstract->execute(NULL, 3)
+#5 D:\xampp\htdocs\f2\application\Services\Job.php(75): Services_Base->getCompanyDataConnection(401)
+#6 D:\xampp\htdocs\f2\application\Services\Job.php(205): Services_Job->getJobById('50d21c5bd194a', '1', true)
+#7 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(43): Services_Job->getJobBySuperId('50d21c5bd194a', '1', true)
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#9 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#10 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#14 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#15 {main}
+2012-12-19T14:58:32-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T14:58:32-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-19T14:58:32-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('50d21c68581cd', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-19T15:34:41-05:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2012-12-19T15:34:41-05:00 WARN (4): Invalid security provided from 127.0.0.1, details are as follows: [key: ][token: 1234567]
+2012-12-19T15:34:41-05:00 ERR (3): indexAction has registered an error. Further information may be available.
+---------------------------------------
+2012-12-27T09:27:26-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T09:27:26-05:00 ERR (3): Error caught in getAction--Error Code 0: PDO Connection Error: SQLSTATE[HY000] [2005] Unknown MySQL server host 'idc-acntrlqa02' (11001)
+#0 D:\xampp\htdocs\f2\library\Doctrine\Connection\Mysql.php(101): Doctrine_Connection->connect()
+#1 D:\xampp\htdocs\f2\library\Doctrine\Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(976): Doctrine_Connection->execute('SELECT c.compan...', Array)
+#3 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1026): Doctrine_Query_Abstract->_execute(NULL)
+#4 D:\xampp\htdocs\f2\application\Services\Base.php(119): Doctrine_Query_Abstract->execute(NULL, 3)
+#5 D:\xampp\htdocs\f2\application\Services\Job.php(75): Services_Base->getCompanyDataConnection('401')
+#6 D:\xampp\htdocs\f2\application\Services\Job.php(205): Services_Job->getJobById('50dc5acb4bfce', '54601', true)
+#7 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(43): Services_Job->getJobBySuperId('50dc5acb4bfce', '54601_401', true)
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#9 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#10 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#14 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#15 {main}
+2012-12-27T13:29:39-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T13:29:39-05:00 ERR (3): Error caught in getAction--Error Code 0: PDO Connection Error: SQLSTATE[HY000] [2005] Unknown MySQL server host 'idc-acntrlqa02' (11001)
+#0 D:\xampp\htdocs\f2\library\Doctrine\Connection\Mysql.php(101): Doctrine_Connection->connect()
+#1 D:\xampp\htdocs\f2\library\Doctrine\Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(976): Doctrine_Connection->execute('SELECT c.compan...', Array)
+#3 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1026): Doctrine_Query_Abstract->_execute(NULL)
+#4 D:\xampp\htdocs\f2\application\Services\Base.php(119): Doctrine_Query_Abstract->execute(NULL, 3)
+#5 D:\xampp\htdocs\f2\application\Services\Job.php(75): Services_Base->getCompanyDataConnection('401')
+#6 D:\xampp\htdocs\f2\application\Services\Job.php(205): Services_Job->getJobById('50dc93869adc0', '54601', true)
+#7 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(43): Services_Job->getJobBySuperId('50dc93869adc0', '54601_401', true)
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#9 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#10 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#14 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#15 {main}
+2013-01-02T07:49:01-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-02T07:49:01-05:00 ERR (3): Error caught in getAction--Error Code 0: PDO Connection Error: SQLSTATE[HY000] [2005] Unknown MySQL server host 'idc-acntrlqa02' (11004)
+#0 D:\xampp\htdocs\f2\library\Doctrine\Connection\Mysql.php(101): Doctrine_Connection->connect()
+#1 D:\xampp\htdocs\f2\library\Doctrine\Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(976): Doctrine_Connection->execute('SELECT c.compan...', Array)
+#3 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1026): Doctrine_Query_Abstract->_execute(NULL)
+#4 D:\xampp\htdocs\f2\application\Services\Base.php(119): Doctrine_Query_Abstract->execute(NULL, 3)
+#5 D:\xampp\htdocs\f2\application\Services\Job.php(75): Services_Base->getCompanyDataConnection('401')
+#6 D:\xampp\htdocs\f2\application\Services\Job.php(205): Services_Job->getJobById('50e42cb7a95a8', '54601', true)
+#7 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(43): Services_Job->getJobBySuperId('50e42cb7a95a8', '54601_401', true)
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#9 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#10 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#11 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#12 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#13 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#14 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#15 {main}
+2013-01-24T11:14:55-05:00 ERR (3): processResult has registered an error. Further information may be available.
+2013-02-13T16:09:58-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-02-13T16:09:58-05:00 ERR (3): Error caught in getAction--Error Code 0: Bad log priority
+#0 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(86): Zend_Log->log('Company ID set ...')
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(40): Rest_AbstractController->validateCredentials()
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-02-13T16:10:46-05:00 DEBUG (7): Company ID set on Rest_AbstractController::validateCredentials to  from input of 
+2013-02-13T16:17:07-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-13T16:17:07-05:00 DEBUG (7): Company ID set on Rest_AbstractController::validateCredentials to  from input of 
+2013-02-13T16:21:53-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-13T16:21:53-05:00 DEBUG (7): Company ID set on Rest_AbstractController::validateCredentials to  from input of 
+2013-02-14T07:17:09-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T07:17:09-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T09:02:23-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T09:02:23-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T09:03:25-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T09:03:25-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T09:06:50-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T09:06:50-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T09:29:06-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T09:29:06-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T09:29:36-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T09:29:36-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T09:29:49-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T09:29:49-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T09:37:00-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T09:37:00-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T09:37:27-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T09:37:27-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-02-14T10:27:32-05:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-02-14T10:27:32-05:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-13T13:47:50-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-13T13:47:50-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-13T13:47:50-04:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2013-03-13T13:47:50-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-13T13:47:50-04:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('5140bbc6a90d9', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(82): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-03-13T13:48:03-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-13T13:48:03-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-13T13:48:03-04:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 127.0.0.1
+2013-03-13T13:48:03-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-13T13:48:03-04:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Job.php(29): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(17): Services_Job->getJobList('5140bbd3192ce', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(82): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-03-18T09:59:04-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-18T09:59:04-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-18T10:03:11-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-18T10:03:11-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-20T10:18:14-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-20T10:18:14-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-21T10:22:15-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-21T10:22:15-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-21T10:22:15-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-21T10:22:15-04:00 ERR (3): Error caught in getAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(57): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'getAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'getAction', NULL)
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(74): Services_Base->getSecurityToken(NULL, 'getAction')
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(39): Rest_AbstractController->validateCredentials()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\JobControllerTest.php(24): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Job/1_401')
+#11 [internal function]: Rest_JobControllerTest->testAbleToGETJob()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_JobControllerTest), Array)
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_JobControllerTest))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_JobControllerTest), Object(PHPUnit_Framework_TestResult))
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#21 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#22 {main}
+2013-03-21T10:23:15-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-21T10:23:15-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-21T10:23:15-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-21T10:23:15-04:00 ERR (3): Error caught in getAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(57): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'getAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'getAction', NULL)
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(74): Services_Base->getSecurityToken(NULL, 'getAction')
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(39): Rest_AbstractController->validateCredentials()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\JobControllerTest.php(28): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Job/1_401')
+#11 [internal function]: Rest_JobControllerTest->testAbleToGETJob()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_JobControllerTest), Array)
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_JobControllerTest))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_JobControllerTest), Object(PHPUnit_Framework_TestResult))
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#21 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#22 {main}
+2013-03-21T10:24:00-04:00 WARN (4): Empty CompanyID provided to during Rest_AbstractController::setService. This probably caused downstream problems.
+2013-03-21T10:24:00-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to  based on object var.
+2013-03-21T10:24:00-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-21T10:24:00-04:00 ERR (3): Error caught in getAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(57): Esquire_Service_Security->hasAccess('Services_Job_Se...', 'getAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Base.php(74): Esquire_Service_Security->getSecurityToken('Services_Job_Se...', 'getAction', NULL)
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AbstractController.php(74): Services_Base->getSecurityToken(NULL, 'getAction')
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(39): Rest_AbstractController->validateCredentials()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\JobControllerTest.php(28): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Job/1_401')
+#11 [internal function]: Rest_JobControllerTest->testAbleToGETJob()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_JobControllerTest), Array)
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_JobControllerTest))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_JobControllerTest), Object(PHPUnit_Framework_TestResult))
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#21 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#22 {main}
+2013-03-21T10:25:15-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to 401 based on object var.
+2013-03-21T10:25:15-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-21T10:25:15-04:00 ERR (3): Error caught in getAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(57): Esquire_Service_Security->hasAccess('Services_Transc...', 'indexAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Job.php(90): Esquire_Service_Security->getSecurityToken('Services_Transc...', 'indexAction')
+#2 D:\xampp\htdocs\f2\application\Services\Job.php(205): Services_Job->getJobById('514b184bc6c1a', '1', true)
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(42): Services_Job->getJobBySuperId('514b184bc6c1a', '1_401', true)
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\JobControllerTest.php(33): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Job/1_401')
+#11 [internal function]: Rest_JobControllerTest->testAbleToGETJob()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_JobControllerTest), Array)
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_JobControllerTest))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_JobControllerTest), Object(PHPUnit_Framework_TestResult))
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#21 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#22 {main}
+2013-03-21T10:53:11-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to 401 based on object var.
+2013-03-21T10:53:11-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-21T10:53:11-04:00 ERR (3): Error caught in getAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(57): Esquire_Service_Security->hasAccess('Services_Transc...', 'indexAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Job.php(90): Esquire_Service_Security->getSecurityToken('Services_Transc...', 'indexAction')
+#2 D:\xampp\htdocs\f2\application\Services\Job.php(205): Services_Job->getJobById('514b1ed78a34f', '1', true)
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(42): Services_Job->getJobBySuperId('514b1ed78a34f', '1_401', true)
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\JobControllerTest.php(33): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Job/1_401')
+#11 [internal function]: Rest_JobControllerTest->testAbleToGETJob()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_JobControllerTest), Array)
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_JobControllerTest))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_JobControllerTest), Object(PHPUnit_Framework_TestResult))
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#21 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#22 {main}
+2013-03-21T10:55:15-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to 401 based on object var.
+2013-03-21T10:55:15-04:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 
+2013-03-21T10:55:15-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to 401 based on object var.
+2013-03-21T10:55:15-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-21T10:55:15-04:00 ERR (3): Error caught in getAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(57): Esquire_Service_Security->hasAccess('Services_Transc...', 'indexAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Job.php(90): Esquire_Service_Security->getSecurityToken('Services_Transc...', 'indexAction')
+#2 D:\xampp\htdocs\f2\application\Services\Job.php(205): Services_Job->getJobById('514b1f53c4200', '1', true)
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(42): Services_Job->getJobBySuperId('514b1f53c4200', '1_401', true)
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\JobControllerTest.php(60): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Job/1_401')
+#11 [internal function]: Rest_JobControllerTest->testAbleToGETJob()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_JobControllerTest), Array)
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_JobControllerTest))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_JobControllerTest), Object(PHPUnit_Framework_TestResult))
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#21 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#22 {main}
+2013-03-21T11:00:01-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to 401 based on object var.
+2013-03-21T11:00:01-04:00 DEBUG (7): Job list requested from Rest_JobController::indexAction by 
+2013-03-21T11:00:01-04:00 DEBUG (7): Setting the companyId on the service Services_Job_Service to 401 based on object var.
+2013-03-21T11:00:01-04:00 ERR (3): processException has registered an error. Further information may be available.
+2013-03-21T11:00:01-04:00 ERR (3): Error caught in getAction--Error Code 0: No key provided in security request.
+#0 D:\xampp\htdocs\f2\library\Esquire\Service\Security.php(57): Esquire_Service_Security->hasAccess('Services_Transc...', 'indexAction', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Job.php(90): Esquire_Service_Security->getSecurityToken('Services_Transc...', 'indexAction')
+#2 D:\xampp\htdocs\f2\application\Services\Job.php(205): Services_Job->getJobById('514b2071d0b1d', '1', true)
+#3 D:\xampp\htdocs\f2\application\modules\Rest\controllers\JobController.php(42): Services_Job->getJobBySuperId('514b2071d0b1d', '1', true)
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_JobController->getAction()
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_HttpTestCase), Object(Zend_Controller_Response_HttpTestCase))
+#7 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#8 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#9 D:\xampp\htdocs\f2\library\Zend\Test\PHPUnit\ControllerTestCase.php(203): Zend_Application->run()
+#10 D:\xampp\htdocs\f2\tests\application\modules\Rest\controllers\JobControllerTest.php(60): Zend_Test_PHPUnit_ControllerTestCase->dispatch('/Rest/Job/1')
+#11 [internal function]: Rest_JobControllerTest->testAbleToGETJob()
+#12 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(942): ReflectionMethod->invokeArgs(Object(Rest_JobControllerTest), Array)
+#13 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(804): PHPUnit_Framework_TestCase->runTest()
+#14 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestResult.php(649): PHPUnit_Framework_TestCase->runBare()
+#15 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestCase.php(751): PHPUnit_Framework_TestResult->run(Object(Rest_JobControllerTest))
+#16 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(772): PHPUnit_Framework_TestCase->run(Object(PHPUnit_Framework_TestResult))
+#17 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(Rest_JobControllerTest), Object(PHPUnit_Framework_TestResult))
+#18 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\TestRunner.php(325): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#19 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(192): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#20 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.library.pear_1.2.2.R20120127000000\php\library\PEAR\PHPUnit\TextUI\Command.php(130): PHPUnit_TextUI_Command->run(Array, true)
+#21 C:\Program Files\Eclipse_Indigo\plugins\org.phpsrc.eclipse.pti.tools.phpunit_0.8.0.R20111119000000\php\tools\phpunit.php(45): PHPUnit_TextUI_Command::main()
+#22 {main}

@@ -1,0 +1,11 @@
+<?php
+
+$writers = $this->log->getWriters();
+foreach ($writers as $writer) {
+    if ($writer instanceof Zend_Log_Writer_Stream) {
+        echo '<pre>';
+        echo implode('', $writer->getLoggedMessages());
+        echo '</pre>';
+    }
+}
+echo "<br /><br />Finished";

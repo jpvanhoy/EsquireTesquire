@@ -1,0 +1,20 @@
+<?php
+
+$okCount = 0;
+foreach ((array)$this->results as $serverName => $result) {
+	echo '<b>' . $serverName . ': </b>';
+	if ($result->getStatus() == 200) {
+		echo 'OK';
+		$okCount++;
+	} else {
+		echo 'FAIL';
+	}
+	echo "<br />";
+}
+
+echo "<br />";
+if ($okCount == count($this->results)) {
+	echo "HAPPY";
+} else {
+	echo "SAD";
+}

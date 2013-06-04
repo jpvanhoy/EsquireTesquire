@@ -1,0 +1,20 @@
+<?php
+
+$okCount = 0;
+foreach ((array)$this->results as $databaseName => $result) {
+	echo '<b>' . $databaseName . ': </b>';
+	if ($result instanceof Doctrine_Connection) {
+		echo 'OK';
+		$okCount++;
+	} else {
+		echo 'FAIL';
+	}
+	echo "<br />";
+}
+
+echo "<br />";
+if ($okCount == count($this->results)) {
+	echo "HAPPY";
+} else {
+	echo "SAD";
+}

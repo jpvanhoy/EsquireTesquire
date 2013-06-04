@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>EsquireCentral</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link href="public/css/style_default.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="public/js/library/ext-4.0.7/resources/css/ext-all.css" 
+		  type="text/css" media="screen" 
+	/>
+	<script type="text/javascript" src="public/js/library/ext-4.0.7/ext-all.js"></script>
+	<script type="text/javascript">
+		<?php
+			$menuConfig = new Zend_Config_Ini(APPLICATION_PATH . '/configs/menu.ini', 'menu');
+			$items = $menuConfig->toArray();
+			$javascriptItems = EsquireMenuCreator($items['items']);
+
+			echo "var esquireMenuItems = [" . implode(',', $javascriptItems) . "];";
+			
+			/**
+			 * Recursively build ExtJS menu from INI data
+			 *
+			 * @param array $itemArray
+			 * @param array $parent 
+			 * @todo Make this a view helper
+			 */
+			function EsquireMenuCreator($itemArray, $parent = null) {
+				$subItems = array();
+
+				$session = Esquire_Session_Factory::getUserSession();
+				$config = Esquire_Config_Factory::getApplicationConfig();
+				$permissions = Esquire_Permissions_Adapter_Factory::getAdapter($config);
+
+				foreach ($itemArray as $itemName => $itemData) {
+					$allowed = false;
+					if (array_key_exists('permissions', $itemData)) {
+						foreach ((array)$itemData['permissions'] as $resource) {
+							if ($permissions->isAllowed($session->ad_username, $resource) === true) {
+								$allowed = true;
+								break;
+							}
+						}
+					} else {
+						$allowed = true;
+					}
+					
+					if ($allowed === false) {
+						continue;
+					}
+
+					if (!array_key_exists('items', $itemData)) {
+						$subItems[] .= "{text: '$itemName', href: '{$itemData['link']}'}";
+					} else {
+						$subItems[] = "{
+								text: '$itemName', 
+								menu: Ext.create('Ext.menu.Menu', {
+									showSeparator: false,
+									items: [" 
+										. implode(',', EsquireMenuCreator($itemData['items'])) . 
+									"]
+								})
+							}
+						";
+					}
+				}
+				return $subItems;
+			}
+		?>
+	</script>
+	<script type="text/javascript" src="public/js/framework.js"></script>
+
+<?php 
+
+$dateString = date('D, j M Y');
+$session = Esquire_Session_Factory::getUserSession();
+
+$html =<<<HTML
+	<div id="header">
+		<div id="masthead">
+			<div id="logo">
+				<a href="../index.php">
+					<img src="../images/1x1.gif" border="0" width="350" height="48" style="float:left;" />
+				</a>
+				<div id="mastheadtools">
+					<div id="logoutbutton" class="mastheadbutton">
+						<form action="../secure/logout.php" method="post">
+							<input type="hidden" value="1" name="logout"/>
+							<input class="login_submit" 
+								   type="submit" 
+								   title="Click Here To Log Out" 
+								   value="Log Out" 
+								   name="submit" 
+							/>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="toptoolbar">
+			<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" id="status">
+				<tr height="20px">
+					<td width="25%" height="20" align="left" valign="middle" 
+						style="font-size: 10px;color: #002455; padding-left: 3px;" 
+					>
+						{$session->ad_username}
+					</td>
+					<td height="20" align="center" valign="middle">
+						<a href="../page_ticketingList.php">
+							<font style="font-size:10px;">
+								View tickets assigned to you
+							</font>
+						</a> 
+					</td>
+					<td width="25%" height="20" align="right" valign="middle" 
+						style="font-size: 10px; padding-right: 3px;"
+					>
+						<span style="left: 3px;">
+							$dateString
+						</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+HTML;
+
+$html = preg_replace('/\n/', '', $html);
+$html = preg_replace('/\r/', '', $html);
+
+$this->headScript()->captureStart(); 
+?>
+	bannerHtml = '<?php echo preg_replace('/\n/', '', $html); ?>';
+<?php 
+$this->headScript()->captureEnd();
+
+echo $this->headScript(); 
+
+?>
+
+</head>
+<body>
+</body>
+</html>

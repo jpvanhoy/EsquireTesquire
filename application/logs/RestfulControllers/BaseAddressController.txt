@@ -1,0 +1,48 @@
+2013-01-29T10:52:43-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-29T10:52:43-05:00 ERR (3): Error caught in getAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(55): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\BaseAddressController.php(33): Services_Address->getAddressById('5107f04b09191', '1', true)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_BaseAddressController->getAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-29T10:52:54-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-29T10:52:54-05:00 ERR (3): Error caught in getAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(55): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\BaseAddressController.php(33): Services_Address->getAddressById('5107f0561c9a4', '1', true)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_BaseAddressController->getAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-29T11:04:24-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-29T11:04:24-05:00 ERR (3): Error caught in getAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(55): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\BaseAddressController.php(33): Services_Address->getAddressById('5107f308d400a', '1', true)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_BaseAddressController->getAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-29T19:14:31-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-29T19:14:32-05:00 ERR (3): Error caught in getAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(55): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\BaseAddressController.php(38): Services_Address->getAddressById('510865e7bb240', '1', true)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_BaseAddressController->getAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('getAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}

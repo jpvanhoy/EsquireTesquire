@@ -1,0 +1,15 @@
+2013-01-24T11:15:28-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T11:18:16-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T13:37:07-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T13:42:34-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T13:49:25-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T13:59:08-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T14:00:50-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T14:04:18-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T14:21:58-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T14:24:08-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-01-24T14:29:45-05:00 DEBUG (7): Attorney list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-02-14T09:06:19-05:00 DEBUG (7): Setting the companyId on the service Services_Firm_Service to 401 based on object var.
+2013-02-14T09:06:19-05:00 DEBUG (7): Clirm list requested from Rest_FirmController::indexAction by 127.0.0.1
+2013-02-14T09:06:35-05:00 DEBUG (7): Setting the companyId on the service Services_Firm_Service to 401 based on object var.
+2013-02-14T09:06:35-05:00 DEBUG (7): Clirm list requested from Rest_FirmController::indexAction by 127.0.0.1

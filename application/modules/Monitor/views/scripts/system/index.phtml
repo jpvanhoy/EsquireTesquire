@@ -1,0 +1,20 @@
+<?php
+
+$okCount = 0;
+foreach ((array)$this->results as $name => $result) {
+	echo '<b>' . $name . ': </b>';
+	if ($result === true) {
+		echo 'OK';
+		$okCount++;
+	} else {
+		echo 'FAIL';
+	}
+	echo "<br />";
+}
+
+echo "<br />";
+if ($okCount == count($this->results)) {
+	echo "HAPPY";
+} else {
+	echo "SAD";
+}

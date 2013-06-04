@@ -1,0 +1,16 @@
+2013-03-20T13:48:59-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-20T13:48:59-04:00 DEBUG (7): List requested from Rest_DeliveryMethodController::indexAction by 
+2013-03-20T13:48:59-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-20T13:48:59-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-20T13:48:59-04:00 ERR (3): Rest_DeliveryMethodController::getAction
+2013-03-20T13:49:00-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-20T13:49:00-04:00 ERR (3): postAction has registered an error. Further information may be available.
+2013-03-20T13:49:01-04:00 ERR (3): deleteAction has registered an error. Further information may be available.
+2013-03-21T09:52:04-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-21T09:52:04-04:00 DEBUG (7): List requested from Rest_DeliveryMethodController::indexAction by 
+2013-03-21T09:52:05-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-21T09:52:05-04:00 ERR (3): getAction has registered an error. Further information may be available.
+2013-03-21T09:52:05-04:00 ERR (3): Rest_DeliveryMethodController::getAction
+2013-03-21T09:52:05-04:00 ERR (3): putAction has registered an error. Further information may be available.
+2013-03-21T09:52:06-04:00 ERR (3): postAction has registered an error. Further information may be available.
+2013-03-21T09:52:06-04:00 ERR (3): deleteAction has registered an error. Further information may be available.

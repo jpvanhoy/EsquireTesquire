@@ -1,0 +1,17 @@
+2013-02-14T09:06:22-05:00 DEBUG (7): Setting the companyId on the service Services_Address_Service to 401 based on object var.
+2013-02-14T09:06:22-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-02-14T09:06:22-05:00 DEBUG (7): array (
+  'module' => 'Rest',
+  'controller' => 'ClientAddress',
+  'action' => 'index',
+  '_dc' => '1360850781217',
+  'ClientID' => '1',
+  'CompanyID' => '401',
+  'token' => '',
+  'key' => '1234567',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+  'format' => 'json',
+)
+2013-02-14T09:06:22-05:00 DEBUG (7): Requesting an index of addresses for clientId: 1.

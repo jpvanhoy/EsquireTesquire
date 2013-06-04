@@ -1,0 +1,14 @@
+2013-01-24T11:01:22-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T11:01:49-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T11:15:06-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T11:18:02-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T13:36:35-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T13:41:42-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T13:49:05-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T13:58:25-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:00:26-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:03:41-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:20:48-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:21:27-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:23:41-05:00 DEBUG (7): Tried to get connection to connection_tk
+2013-01-24T14:29:25-05:00 DEBUG (7): Tried to get connection to connection_tk

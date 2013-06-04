@@ -1,0 +1,70 @@
+2012-11-30T15:33:49-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-11-30T15:36:00-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-11-30T15:37:54-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-11-30T15:39:54-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-11-30T15:41:54-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-11-30T15:43:32-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:09:00-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:11:59-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:14:57-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:25:06-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:27:38-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:29:29-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:33:18-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:36:57-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:38:44-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:47:30-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:50:07-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:53:55-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T09:56:34-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T10:11:07-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T10:21:38-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T10:36:26-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T11:03:11-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T12:25:17-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T12:26:11-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-06T12:33:16-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-13T13:22:24-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2012-12-27T09:28:16-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T11:01:20-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T11:01:47-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T11:15:03-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T11:18:00-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T13:36:33-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T13:41:39-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T13:49:03-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T13:58:22-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T14:00:23-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T14:03:39-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T14:20:46-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T14:21:25-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T14:23:38-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-24T14:29:23-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-01-29T19:14:19-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-13T15:56:46-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-13T16:10:53-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-13T16:10:53-05:00 DEBUG (7): Company ID set on Rest_AbstractController::validateCredentials to 401 from input of 401
+2013-02-13T16:17:15-05:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to  based on object var.
+2013-02-13T16:17:15-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-13T16:17:15-05:00 DEBUG (7): Company ID set on Rest_AbstractController::validateCredentials to 401 from input of 401
+2013-02-13T16:21:55-05:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-02-13T16:21:55-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-13T16:21:55-05:00 DEBUG (7): Company ID set on Rest_AbstractController::validateCredentials to 401 from input of 401
+2013-02-14T07:17:26-05:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-02-14T07:17:26-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-14T09:02:25-05:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-02-14T09:02:25-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-14T09:03:27-05:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-02-14T09:03:27-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-14T09:29:07-05:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-02-14T09:29:07-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-14T09:37:01-05:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-02-14T09:37:01-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-02-14T10:27:34-05:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-02-14T10:27:34-05:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-03-18T09:59:07-04:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-03-18T09:59:07-04:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-03-18T10:03:13-04:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-03-18T10:03:13-04:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1
+2013-03-20T10:18:17-04:00 DEBUG (7): Setting the companyId on the service Services_ReporterCost_Service to 401 based on object var.
+2013-03-20T10:18:17-04:00 DEBUG (7): ReporterCost list requested from Rest_ReporterCostController::indexAction by 127.0.0.1

@@ -1,0 +1,99 @@
+2012-12-27T09:26:48-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1
+2012-12-27T09:26:48-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T09:26:48-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Attorney.php(19): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AttorneyController.php(24): Services_Attorney->getAttorneyList('50dc5aa833f48', 'and', NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_AttorneyController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-27T09:27:04-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1
+2012-12-27T09:27:04-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T09:27:04-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Attorney.php(19): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AttorneyController.php(24): Services_Attorney->getAttorneyList('50dc5ab841100', 'and', NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_AttorneyController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-27T09:27:30-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1
+2012-12-27T09:27:30-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T09:27:30-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Attorney.php(19): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AttorneyController.php(24): Services_Attorney->getAttorneyList('50dc5ad2388fc', 'and', NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_AttorneyController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-27T09:27:37-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1
+2012-12-27T09:27:37-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T09:27:37-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Attorney.php(19): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AttorneyController.php(24): Services_Attorney->getAttorneyList('50dc5ad9634b1', 'and', NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_AttorneyController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-27T09:28:29-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1
+2012-12-27T09:28:29-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T09:28:29-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Attorney.php(19): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AttorneyController.php(24): Services_Attorney->getAttorneyList('50dc5b0dbc710', 'and', NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_AttorneyController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2012-12-27T09:35:43-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1
+2012-12-27T09:35:43-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T09:35:43-05:00 ERR (3): Error caught in indexAction--Error Code 0: Cannot define NULL as part of query when defining 'limit'.
+#0 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1751): Doctrine_Query_Abstract->_addDqlQueryPart('limit', NULL)
+#1 D:\xampp\htdocs\f2\application\Services\Attorney.php(33): Doctrine_Query_Abstract->limit(NULL)
+#2 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AttorneyController.php(25): Services_Attorney->getAttorneyList('50dc5cbf31d32', 'and', NULL)
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_AttorneyController->indexAction()
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#5 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#7 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#8 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#9 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#10 {main}
+2012-12-27T09:42:14-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1
+2012-12-27T09:42:14-05:00 ERR (3): processException has registered an error. Further information may be available.
+2012-12-27T09:42:14-05:00 ERR (3): Error caught in indexAction--Error Code 7002: SQLSTATE[07002]: COUNT field incorrect: 0 [Microsoft][ODBC SQL Server Driver]COUNT field incorrect or syntax error (SQLExecute[0] at ext\pdo_odbc\odbc_stmt.c:133). Failing Query: "SELECT [p].[personid] AS [p__personid], [p].[companyid] AS [p__companyid], [p].[firstname] AS [p__firstname], [p].[middleinitial] AS [p__middleinitial], [p].[lastname] AS [p__lastname], [p].[suffix] AS [p__suffix], [p].[fullname] AS [p__fullname], [p].[directphone] AS [p__directphone], [p].[mobilephone] AS [p__mobilephone], [p].[pager] AS [p__pager], [p].[fax] AS [p__fax], [p].[emailaddress] AS [p__emailaddress], [p].[dateofbirth] AS [p__dateofbirth], [p].[effectivedate] AS [p__effectivedate], [p].[expiredate] AS [p__expiredate], [p].[initials] AS [p__initials], [a].[attorneyid] AS [a__attorneyid], [a].[clientid] AS [a__clientid], [a].[personid] AS [a__personid], [a].[warningtext] AS [a__warningtext], [a].[orderremarks] AS [a__orderremarks], [c].[clientid] AS [c__clientid], [c].[companyid] AS [c__companyid], [c].[clienttypeid] AS [c__clienttypeid], [c].[name] AS [c__name], [c].[directphone] AS [c__directphone], [c].[tollfreephone] AS [c__tollfreephone], [c].[fax] AS [c__fax], [c].[effectivedate] AS [c__effectivedate], [c].[expiredate] AS [c__expiredate], [c].[warningtext] AS [c__warningtext], [c].[orderremarks] AS [c__orderremarks], [c].[reposdefaultpwd] AS [c__reposdefaultpwd], [c].[reposdefaultuser] AS [c__reposdefaultuser] FROM [Person] [p] INNER JOIN [Attorney] [a] ON [p].[personid] = [a].[personid] INNER JOIN [Client] [c] ON [a].[clientid] = [c].[clientid] WHERE [p].[personid] IN (SELECT TOP 1000000 [inner_tbl].[personid] FROM (SELECT DISTINCT TOP 1000000 [p].[personid] FROM [Person] [p] INNER JOIN [Attorney] [a] ON [p].[personid] = [a].[personid] INNER JOIN [Client] [c] ON [a].[clientid] = [c].[clientid] WHERE [p].[fullname] LIKE  '%and%' OR [p].[initials] LIKE ?) AS [inner_tbl]) AND ([p].[fullname] LIKE  '%and%' OR [p].[initials] LIKE ?)"
+#0 D:\xampp\htdocs\f2\library\Doctrine\Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mssql), 'SELECT [p].[per...')
+#1 D:\xampp\htdocs\f2\library\Doctrine\Connection\Mssql.php(320): Doctrine_Connection->execute('SELECT [p].[per...', Array)
+#2 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(976): Doctrine_Connection_Mssql->execute('SELECT [p].[per...', Array)
+#3 D:\xampp\htdocs\f2\library\Doctrine\Query\Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 D:\xampp\htdocs\f2\application\Services\Attorney.php(38): Doctrine_Query_Abstract->execute()
+#5 D:\xampp\htdocs\f2\application\modules\Rest\controllers\AttorneyController.php(25): Services_Attorney->getAttorneyList('50dc5e46467ae', 'and', NULL)
+#6 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_AttorneyController->indexAction()
+#7 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#8 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#9 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#10 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#11 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#12 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#13 {main}
+2012-12-27T09:44:03-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1
+2013-02-14T09:06:21-05:00 DEBUG (7): Setting the companyId on the service Services_Attorney_Service to 401 based on object var.
+2013-02-14T09:06:21-05:00 DEBUG (7): Attorney list requested from Rest_AttorneyController::indexAction by 127.0.0.1

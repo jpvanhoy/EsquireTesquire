@@ -1,0 +1,12 @@
+2013-03-18T09:59:13-04:00 DEBUG (7): Setting the companyId on the service Services_ProofOfOrdering_Service to 401 based on object var.
+2013-03-18T09:59:13-04:00 DEBUG (7): ProofOfOrdering list requested from Rest_ProofOfOrderingController::indexAction by 127.0.0.1
+2013-03-18T10:03:20-04:00 DEBUG (7): Setting the companyId on the service Services_ProofOfOrdering_Service to 401 based on object var.
+2013-03-18T10:03:20-04:00 DEBUG (7): ProofOfOrdering list requested from Rest_ProofOfOrderingController::indexAction by 127.0.0.1
+2013-03-20T10:18:26-04:00 DEBUG (7): Setting the companyId on the service Services_ProofOfOrdering_Service to 401 based on object var.
+2013-03-20T10:18:26-04:00 DEBUG (7): ProofOfOrdering list requested from Rest_ProofOfOrderingController::indexAction by 127.0.0.1
+2013-03-20T10:18:27-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-20T10:18:28-04:00 ERR (3): processResult has registered an error. Further information may be available.
+2013-03-20T10:18:28-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-20T10:18:28-04:00 ERR (3): processResult has registered an error. Further information may be available.
+2013-03-20T10:18:29-04:00 DEBUG (7): Setting the companyId on the service Services_Deliverable_Service to 401 based on object var.
+2013-03-20T10:18:29-04:00 ERR (3): processResult has registered an error. Further information may be available.

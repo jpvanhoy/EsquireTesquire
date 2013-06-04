@@ -1,0 +1,205 @@
+2013-01-24T09:23:13-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T09:23:13-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T09:23:13-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('510143d1c120f', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T11:18:19-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T11:18:21-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T11:18:21-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T11:18:21-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('51015ecbc926b', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T11:18:22-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T11:18:22-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T11:18:22-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('51015ece25015', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T11:20:03-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:37:11-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:37:13-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:37:13-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T13:37:13-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('51017f5781193', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T13:37:13-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:37:13-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T13:37:13-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('51017f5960125', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T13:40:28-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:43:01-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:43:29-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:43:29-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T13:43:29-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('510180b5649cb', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T13:43:30-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:43:30-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T13:43:30-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('510180d20cfba', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T13:49:29-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:50:01-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:50:01-05:00 WARN (4): Invalid security provided from 127.0.0.1, details are as follows: [key: ][token: 51018239955f8]
+2013-01-24T13:50:01-05:00 ERR (3): indexAction has registered an error. Further information may be available.
+2013-01-24T13:50:01-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:50:01-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T13:50:01-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('510182597cfed', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T13:59:17-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:59:40-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:59:40-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T13:59:40-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('510184856492c', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T13:59:40-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T13:59:40-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T13:59:40-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('5101849cd5dc3', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T14:01:30-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T14:01:51-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T14:01:51-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T14:01:51-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('5101850a325f8', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T14:01:51-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T14:01:51-05:00 ERR (3): processException has registered an error. Further information may be available.
+2013-01-24T14:01:51-05:00 ERR (3): Error caught in indexAction--Error Code 0: Company information not provided; unable to determine database connection
+#0 D:\xampp\htdocs\f2\application\Services\Address.php(13): Services_Base->getCompanyDataConnection(NULL)
+#1 D:\xampp\htdocs\f2\application\modules\Rest\controllers\ClientAddressController.php(21): Services_Address->getAddressListForFirm('5101851fa01ba', NULL, NULL)
+#2 D:\xampp\htdocs\f2\library\Zend\Controller\Action.php(513): Rest_ClientAddressController->indexAction()
+#3 D:\xampp\htdocs\f2\library\Zend\Controller\Dispatcher\Standard.php(295): Zend_Controller_Action->dispatch('indexAction')
+#4 D:\xampp\htdocs\f2\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#5 D:\xampp\htdocs\f2\library\Zend\Application\Bootstrap\Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#6 D:\xampp\htdocs\f2\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#7 D:\xampp\htdocs\f2\library\Esquire\Application\Abstract.php(78): Zend_Application->run()
+#8 D:\xampp\htdocs\f2\index.php(5): Esquire_Application_Abstract->run()
+#9 {main}
+2013-01-24T14:04:25-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+---------------------------------
+2013-01-24T14:22:02-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T14:22:02-05:00 DEBUG (7): Requesting an index of addresses for clientId:  but probably failing.
+2013-01-24T14:24:12-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T14:24:12-05:00 DEBUG (7): array (
+  'module' => 'Rest',
+  'controller' => 'ClientAddress',
+  'action' => 'index',
+  '_dc' => '1359055451878',
+  'ClientID' => '1',
+  'CompanyID' => '401',
+  'token' => '',
+  'key' => '1234567',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+  'format' => 'json',
+)
+2013-01-24T14:24:12-05:00 DEBUG (7): Requesting an index of addresses for clientId:  but probably failing.
+----------------------------------
+
+2013-01-24T14:29:48-05:00 DEBUG (7): Address list requested from Rest_ClientAddressController::indexAction by 127.0.0.1
+2013-01-24T14:29:48-05:00 DEBUG (7): array (
+  'module' => 'Rest',
+  'controller' => 'ClientAddress',
+  'action' => 'index',
+  '_dc' => '1359055787878',
+  'ClientID' => '1',
+  'CompanyID' => '401',
+  'token' => '',
+  'key' => '1234567',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+  'format' => 'json',
+)
+2013-01-24T14:29:48-05:00 DEBUG (7): Requesting an index of addresses for clientId:  but probably failing.

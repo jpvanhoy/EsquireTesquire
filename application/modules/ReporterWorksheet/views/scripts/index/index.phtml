@@ -1,0 +1,38 @@
+<?php
+
+$config = Esquire_Config_Factory::getReporterWorksheetUIConfig();
+
+$data = array(
+	'Job' => $this->jobData['esquire_data_package']['data'],
+	'JobPriorityType' => $this->jobPriorityTypeData['esquire_data_package']['data'],
+	'AppearanceType' => $this->appearanceTypeData['esquire_data_package']['data'],
+	'ReporterCost' => $this->reporterCostData['esquire_data_package']['data'],
+	'Jurisdiction' => $this->jurisdictionData['esquire_data_package']['data'],
+	'ReporterTimeAndDistance' => $this->reporterTimeAndDistanceData['esquire_data_package']['data'],
+	'BypassProductionReason' => $this->bypassProductionReasonData['esquire_data_package']['data'],
+	'Confidentiality' => $this->confidentialityData['esquire_data_package']['data'],
+	'TranscriptType' => $this->transcriptTypeData['esquire_data_package']['data'],
+	'SignatureProtocol' => $this->signatureProtocolData['esquire_data_package']['data'],
+	'ExhibitInstruction' => $this->exhibitInstructionData['esquire_data_package']['data'],
+	'ExhibitTurnIn' => $this->exhibitTurnInData['esquire_data_package']['data'],
+	'Order' => $this->orderData['esquire_data_package']['data'],
+	'OnBehalfOfType' => $this->onBehalfOfTypeData['esquire_data_package']['data'],
+	'ProofOfOrdering' => $this->proofOfOrderingData['esquire_data_package']['data']
+);
+
+$configArray = $config->toArray();
+$configArray['servicesKey'] = $this->servicesKey;
+$this->headScript()->captureStart();
+    echo 'REPORTER_WORKSHEET_LOAD_DATA = ' . json_encode($data) . ";\n"; 
+    echo 'REPORTER_WORKSHEET_CONFIG = ' . json_encode($configArray) . ';';
+$this->headScript()->captureEnd();
+
+$this->headScript()->appendFile('public/js/application/modules/ReporterWorksheet/application.js');
+$this->headScript()->appendFile('public/js/application/modules/ReporterWorksheet/data/GeneralInformationMap.js');
+$this->headScript()->appendFile('public/js/application/modules/ReporterWorksheet/data/CaseDetailsMap.js');
+$this->headScript()->appendFile('public/js/application/modules/ReporterWorksheet/data/AssignmentDetailsMap.js');
+$this->headScript()->appendFile('public/js/application/modules/ReporterWorksheet/data/ReporterPayDetailsMap.js');
+$this->headScript()->appendFile('public/js/application/modules/ReporterWorksheet/data/TranscriptTabMap.js');
+$this->headScript()->appendFile('public/js/application/modules/ReporterWorksheet/data/OrderTabMap.js');
+
+

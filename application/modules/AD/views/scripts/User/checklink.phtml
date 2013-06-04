@@ -1,0 +1,11 @@
+<?php
+
+$data = array();
+if ($this->exception instanceof Exception) {
+    $data['success'] = false;
+    $data['error_message'] = $this->exception->getMessage();
+} else {
+    $data['success'] = true;
+}
+
+echo json_encode($data);

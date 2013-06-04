@@ -1,0 +1,243 @@
+2012-06-29T14:41:45-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T14:43:49-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T14:46:32-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T14:47:17-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T14:49:27-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T14:49:36-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T15:07:17-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T15:11:04-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T15:11:36-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T15:11:36-04:00 DEBUG (7): Start getAction()
+2012-06-29T15:11:36-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T15:11:36-04:00 DEBUG (7): Start getAction()
+2012-06-29T15:11:36-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T15:11:36-04:00 DEBUG (7): Start getAction()
+2012-06-29T15:11:37-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T15:11:37-04:00 DEBUG (7): Start getAction()
+2012-06-29T15:11:37-04:00 INFO (6): Constructed the Case Controller
+2012-06-29T15:11:37-04:00 DEBUG (7): Start getAction()
+2012-07-02T09:44:39-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T09:46:45-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T09:46:58-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T09:50:53-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:16:12-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:16:58-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:17:15-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:18:00-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:20:08-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:21:11-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:37:05-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:37:17-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:39:07-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:39:22-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:39:40-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:39:54-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:40:29-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:40:54-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:44:41-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:45:41-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:46:21-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:50:25-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:51:35-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:52:29-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:53:04-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:53:26-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:54:24-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:54:44-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:54:55-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:54:57-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:55:06-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T10:55:52-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:02:57-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:03:55-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:04:05-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:04:35-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:04:38-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:04:55-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:09:08-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:09:20-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:09:29-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:10:35-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:22:15-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:28:39-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:28:56-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:29:56-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:29:58-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:30:23-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:56:55-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T11:57:27-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:18:43-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:21:59-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:24:41-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:25:24-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:34:34-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:35:46-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:36:19-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:36:53-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:38:29-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:40:08-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:40:52-04:00 INFO (6): Constructed the Case Controller
+2012-07-02T14:41:29-04:00 INFO (6): Constructed the Case Controller
+2012-07-03T08:00:07-04:00 INFO (6): Constructed the Case Controller
+2012-07-05T13:15:26-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:15:27-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:15:27-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:15:27-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:15:27-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:16:28-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:16:28-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:16:28-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:16:28-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:16:28-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:22:18-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:22:18-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:22:18-04:00 DEBUG (7): Start getAction()
+2012-07-05T13:22:18-04:00 DEBUG (7): Start getAction()
+2012-07-06T10:34:15-04:00 DEBUG (7): Start getAction()
+2012-07-06T10:34:15-04:00 DEBUG (7): Start getAction()
+2012-07-06T10:34:15-04:00 DEBUG (7): Start getAction()
+2012-07-06T10:34:16-04:00 DEBUG (7): Start getAction()
+2012-07-06T10:34:16-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:02:54-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:02:54-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:02:54-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:02:55-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:02:55-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:03:22-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:03:22-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:03:22-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:03:22-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:03:23-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:03:41-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:06:34-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:06:47-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:08:15-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:09:36-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:13:42-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:13:43-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:13:43-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:13:43-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:16:02-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:16:02-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:16:03-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:16:03-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:16:30-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:16:30-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:16:30-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:16:30-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:20:56-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:20:56-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:20:56-04:00 DEBUG (7): Start getAction()
+2012-07-10T11:20:56-04:00 DEBUG (7): Start getAction()
+2012-07-24T11:26:22-04:00 DEBUG (7): Start getAction()
+2012-07-24T11:26:23-04:00 DEBUG (7): Start getAction()
+2012-07-24T11:26:23-04:00 DEBUG (7): Start getAction()
+2012-07-24T11:26:23-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:10:23-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:12:49-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:12:49-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:12:50-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:12:50-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:12:50-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:21-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:21-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:22-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:22-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:22-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:34-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:34-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:35-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:35-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:16:35-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:19:35-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:19:35-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:19:36-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:19:36-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:19:36-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:21:22-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:21:23-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:21:23-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:21:23-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:21:23-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:23:02-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:23:03-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:23:03-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:23:03-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:23:03-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:47-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:48-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:48-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:48-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:48-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:57-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:57-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:57-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:57-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:24:58-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:35:24-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:36:40-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:36:40-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:36:41-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:36:41-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:36:41-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:39:57-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:39:57-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:39:58-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:39:58-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:39:58-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:40:15-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:40:15-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:40:15-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:40:16-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:40:16-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:47:48-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:48:37-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:49:46-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:51:28-04:00 DEBUG (7): Start getAction()
+2012-07-24T14:53:33-04:00 DEBUG (7): Start getAction()
+2012-07-25T10:44:33-04:00 DEBUG (7): Start getAction()
+2012-07-25T10:45:11-04:00 DEBUG (7): Start getAction()
+2012-07-25T10:47:15-04:00 DEBUG (7): Start getAction()
+2012-07-25T10:47:16-04:00 DEBUG (7): Start getAction()
+2012-07-25T10:47:16-04:00 DEBUG (7): Start getAction()
+2012-07-25T10:47:16-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:02:14-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:02:14-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:02:15-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:02:15-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:02:28-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:02:28-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:02:28-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:02:28-04:00 DEBUG (7): Start getAction()
+2012-07-25T11:58:08-04:00 DEBUG (7): Start getAction()
+2012-07-25T12:10:20-04:00 DEBUG (7): Start getAction()
+2012-07-25T12:12:21-04:00 DEBUG (7): Start getAction()
+2012-07-25T12:12:45-04:00 DEBUG (7): Start getAction()
+2012-07-25T12:13:00-04:00 DEBUG (7): Start getAction()
+2012-07-25T12:13:05-04:00 DEBUG (7): Start getAction()
+2012-07-25T12:13:10-04:00 DEBUG (7): Start getAction()
+2012-07-25T12:15:30-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:39-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:39-04:00 ERR (3): Rest_CaseController::getActionSpecific record requested, but record identifier not provided.
+2012-07-26T08:23:39-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:39-04:00 ERR (3): Rest_CaseController::getActionSpecific record requested, but record identifier not provided.
+2012-07-26T08:23:39-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:39-04:00 ERR (3): Rest_CaseController::getActionSpecific record requested, but record identifier not provided.
+2012-07-26T08:23:40-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:40-04:00 ERR (3): Rest_CaseController::getActionSpecific record requested, but record identifier not provided.
+2012-07-26T08:23:54-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:54-04:00 ERR (3): Rest_CaseController::getActionSpecific record requested, but record identifier not provided.
+2012-07-26T08:23:54-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:54-04:00 ERR (3): Rest_CaseController::getActionSpecific record requested, but record identifier not provided.
+2012-07-26T08:23:54-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:54-04:00 ERR (3): Rest_CaseController::getActionSpecific record requested, but record identifier not provided.
+2012-07-26T08:23:54-04:00 DEBUG (7): Start getAction()
+2012-07-26T08:23:54-04:00 ERR (3): Rest_CaseController::getActionSpecific record requested, but record identifier not provided.
+2012-07-26T11:41:03-04:00 ERR (3): Error caught in examineException--Error Code -1: validateCredentials--No credentials available to validate.
+2012-07-30T12:04:21-04:00 ERR (3): getAction received nonzero return code from service. Return code: 2 & message No results found
+2012-07-30T12:04:59-04:00 ERR (3): getAction received nonzero return code from service. Return code: 2 & message No results found
+2012-07-30T12:32:24-04:00 ERR (3): Error caught in getAction--Error Code 0: Unknown relation alias 
+2012-07-30T12:42:13-04:00 ERR (3): Error caught in getAction--Error Code 0: Unknown relation alias 
+2012-07-30T12:48:08-04:00 ERR (3): getAction received nonzero return code from service. Return code: 2 & message No results found
+2012-07-30T13:23:16-04:00 ERR (3): Error caught in indexAction--Error Code 0: invalid data source name
+2012-08-03T15:26:32-04:00 ERR (3): Error caught in indexAction--Error Code 0: invalid data source name

@@ -1,0 +1,27 @@
+2012-02-06T10:07:00-05:00 INFO (6): C:\psftp elink-sshftp.bankofamerica.com -i D:\xampp\htdocs\f2\application/config/boa/id_rsa_putty.ppk -l ESDESOLO -pw esquire -b D:\xampp\htdocs\f2\application/config/boa/boa_commands.scr
+2012-02-06T10:07:01-05:00 INFO (6): OUTPUT: Array
+(
+)
+
+2012-02-06T10:09:18-05:00 INFO (6): C:\psftp elink-sshftp.bankofamerica.com -i D:\xampp\htdocs\f2\application/config/boa/id_rsa_putty.ppk -l ESDESOLO -pw esquire -b D:\xampp\htdocs\f2\application/config/boa/boa_commands.scr
+2012-02-06T10:09:19-05:00 INFO (6): OUTPUT: Array
+(
+)
+
+2012-02-06T10:12:14-05:00 INFO (6): C:\psftp elink-sshftp.bankofamerica.com -i D:\xampp\htdocs\f2\application/configs/boa/id_rsa_putty.ppk -l ESDESOLO -pw esquire -b D:\xampp\htdocs\f2\application/configs/boa/boa_commands.scr
+2012-02-06T10:12:17-05:00 INFO (6): OUTPUT: Array
+(
+    [0] => Remote working directory is /ESDESOLO
+    [1] => New local directory is D:\xampp\htdocs\wachoviafiles\boa_temp
+    [2] => *LBX: nothing matched
+    [3] => OUTBND*: nothing matched
+)
+
+2012-02-06T10:14:09-05:00 INFO (6): C:\psftp elink-sshftp.bankofamerica.com -i D:\xampp\htdocs\f2\application/configs/boa/id_rsa_putty.ppk -l ESDESOLO -pw esquire -b D:\xampp\htdocs\f2\application/configs/boa/boa_commands.scr
+2012-02-06T10:14:12-05:00 INFO (6): OUTPUT: Array
+(
+    [0] => Remote working directory is /ESDESOLO
+    [1] => New local directory is D:\xampp\htdocs\wachoviafiles\boa_temp
+    [2] => remote:/ESDESOLO/SSHF LBX OUTBND TXFSLBX => local:SSHF LBX OUTBND TXFSLBX
+)
+

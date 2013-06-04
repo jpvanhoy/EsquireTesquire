@@ -1,0 +1,3 @@
+lcd D:/xampp/htdocs/wachoviafiles/boa_temp
+mget *LBX*OUTBND*
+
